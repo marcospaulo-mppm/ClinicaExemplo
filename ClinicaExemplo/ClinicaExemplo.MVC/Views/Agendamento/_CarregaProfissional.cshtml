@@ -1,0 +1,43 @@
+﻿@model IEnumerable<ClinicaExemplo.MVC.ViewModels.ProfissionalViewModel>
+
+
+<table class="table">
+
+
+    @foreach (var item in Model) {
+    <tr>
+        <td>
+            <img src="@Html.DisplayFor(modelItem => item.foto)" class="img" />
+        </td>
+        <td>
+            @if (Html.DisplayFor(modelItem => item.sexo).ToString() == "Feminino")
+            {
+                <strong><span style="font-size:15px;">Dra. </span>  @Html.DisplayFor(modelItem => item.Nome)</strong>
+            }
+            @if (Html.DisplayFor(modelItem => item.sexo).ToString() == "Masculino")
+            {
+                <strong><span style="font-size:15px;">Dr. </span>  @Html.DisplayFor(modelItem => item.Nome)</strong>
+            }
+            <br />
+            <span style="color:gray;">CRM @Html.DisplayFor(modelItem => item.documento_conselho) </span>
+            <br />
+            <button id="btnAgendar" class="botao">AGENDAR</button>
+        </td>
+        @*<td>
+           
+        </td>
+
+        <td>
+            
+        </td>*@
+    </tr>
+    }
+
+    </table>
+
+<style>
+    .table
+    {
+        width: 40%;
+    }
+</style>

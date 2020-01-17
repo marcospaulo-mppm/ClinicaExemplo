@@ -1,0 +1,14 @@
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\bin\Debug\ClinicaExemplo.Infra.Data.dll.config
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\bin\Debug\ClinicaExemplo.Infra.Data.dll
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\bin\Debug\ClinicaExemplo.Infra.Data.pdb
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\bin\Debug\ClinicaExemplo.Domain.dll
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\bin\Debug\ClinicaExemplo.Domain.pdb
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\obj\Debug\ClinicaExemplo.Infra.Data.csprojAssemblyReference.cache
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\obj\Debug\ClinicaExemplo.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\obj\Debug\ClinicaExemplo.Infra.Data.csproj.CopyComplete
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\obj\Debug\ClinicaExemplo.Infra.Data.dll
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\obj\Debug\ClinicaExemplo.Infra.Data.pdb

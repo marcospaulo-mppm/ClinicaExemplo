@@ -1,0 +1,9 @@
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Application\bin\Debug\ClinicaExemplo.Application.dll
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Application\bin\Debug\ClinicaExemplo.Application.pdb
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Application\bin\Debug\ClinicaExemplo.Domain.dll
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Application\bin\Debug\ClinicaExemplo.Domain.pdb
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Application\obj\Debug\ClinicaExemplo.Application.csprojAssemblyReference.cache
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Application\obj\Debug\ClinicaExemplo.Application.csproj.CoreCompileInputs.cache
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Application\obj\Debug\ClinicaExemplo.Application.csproj.CopyComplete
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Application\obj\Debug\ClinicaExemplo.Application.dll
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Application\obj\Debug\ClinicaExemplo.Application.pdb

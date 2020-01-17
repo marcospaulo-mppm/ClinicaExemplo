@@ -1,0 +1,12 @@
+﻿@model List<string>
+
+@{
+    Layout = null;
+}
+
+<label>Consulta de:</label>
+
+@foreach (var dropdown in Model)
+{
+    @Html.DropDownList(dropdown, null, htmlAttributes: new { @class = "form-control" })
+}
