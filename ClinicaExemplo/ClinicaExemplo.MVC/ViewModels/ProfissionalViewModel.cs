@@ -33,6 +33,8 @@ namespace ClinicaExemplo.MVC.ViewModels
 
         public virtual IEnumerable<AgendamentoViewModel> Agendamentos { get; set; }
 
+        public List<EspecialidadeViewModel> Especialidades { get; set; }
+
         //public List<EspecialidadeViewModel> especialidades { get; set; }
     }
 }

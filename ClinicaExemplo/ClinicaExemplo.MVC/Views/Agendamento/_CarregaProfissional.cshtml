@@ -8,6 +8,12 @@
         <strong>  @ViewBag.TotEspec </strong><strong>  @ViewBag.espc Encontrado(s)</strong>
     </h3>
 </div>
+<script>
+
+    function agendar(pId, eId) {
+        window.location.href = "/Agendamento/Create?Pid=" + pId + "&Eid=" + eId;
+    }
+</script>
 <table class="table">
 
 
@@ -28,9 +34,8 @@
                 }
                 <br />
                 <span style="color:gray;">CRM @Html.DisplayFor(modelItem => item.documento_conselho) </span>
-                <br />
-                @Html.ActionLink("AGENDAR", "Create", "Agendamento", null, null)
-                <button id="btnAgendar" class="btn btn-default details" data-id="@item.Profissional_id + ';' + @item.Especialidade_id ">AGENDAR</button>
+                <br />  
+                <button id="btnAgendar" class="botao" onclick="agendar(@item.Profissional_id, @item.Especialidades.First().Especialidade_id)">AGENDAR</button>
                 <br />
 
             </td>
@@ -40,10 +45,6 @@
 
 </table>
 
-<div class="modal" id="modal">
-
-</div>
-
 <style>
     .table {
         width: 40%;
@@ -52,16 +53,3 @@
         float: none;
     }
 </style>
-
-@section scripts{
-    <script>
-        $(function () {
-            $("#btnAgendar").click(function () {
-                var id = $(this).attr("data-id");
-                $("#modal").load("Create?id=" + id, function () {
-                    $("#modal").modal();
-                })
-            });
-        })
-    </script>
-}

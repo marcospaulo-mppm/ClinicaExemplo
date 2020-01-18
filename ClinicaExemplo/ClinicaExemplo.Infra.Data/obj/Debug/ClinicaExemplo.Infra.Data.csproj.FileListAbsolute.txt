@@ -8,6 +8,8 @@ C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\bin\D
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\bin\Debug\EntityFramework.xml
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\obj\Debug\ClinicaExemplo.Infra.Data.csprojAssemblyReference.cache
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\obj\Debug\ClinicaExemplo.Infra.Data.Migrations.init.resources
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\obj\Debug\ClinicaExemplo.Infra.Data.csproj.GenerateResource.cache
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\obj\Debug\ClinicaExemplo.Infra.Data.csproj.CoreCompileInputs.cache
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\obj\Debug\ClinicaExemplo.Infra.Data.csproj.CopyComplete
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Infra.Data\obj\Debug\ClinicaExemplo.Infra.Data.dll

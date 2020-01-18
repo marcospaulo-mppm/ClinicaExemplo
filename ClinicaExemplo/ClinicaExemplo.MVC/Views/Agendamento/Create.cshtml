@@ -1,72 +1,62 @@
 ﻿@model ClinicaExemplo.MVC.ViewModels.AgendamentoViewModel
 
 
-<div class="modal-dialog">
-    <div class="modal-content">
 
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title">Preencha seus Dados</h4>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h3>Preencha seus Dados</h3>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { placeholder = "Nome", @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
         </div>
+    </div>
+
+    <div style="border:150px; margin-bottom:15px;">
+        <div id="carregaDropDown"></div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Nascimento, new { htmlAttributes = new { placeholder = "Nascimento", @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Nascimento, "", new { @class = "text-danger" })
+        </div>
+    </div>
 
 
-        @using (Html.BeginForm())
-        {
-            @Html.AntiForgeryToken()
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CPF, new { htmlAttributes = new { placeholder = "CPF (Somente Números)", @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.CPF, "", new { @class = "text-danger" })
+        </div>
+    </div>
 
+    <div style="display: none" id="Paciente_id">
+        @Html.TextBoxFor(model => model.Paciente_id)
+    </div>
 
-            <div class="modal-body">
+    <div style="display: none" id="Profissional_id">
+        @Html.TextBoxFor(model => model.Professional_id) = @ViewBag.Pid
+    </div>
 
-                <div class="form-horizontal">
+    <div style="display: none" id="Especialidade_id">
+        @Html.TextBoxFor(model => model.Especialidade.Especialidade_id) = @ViewBag.Eid
+    </div>
 
-                    <hr />
-                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-
-                    <div class="form-group">
-                        <div class="col-md-10">
-                            @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { placeholder = "Nome", @class = "form-control" } })
-                            @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
-                        </div>
-                    </div>
-
-                    <div style="border:150px; margin-bottom:15px;">
-                        <div id="carregaDropDown"></div>
-                    </div>
-
-                    <div class="form-group">
-                        <div class="col-md-10">
-                            @Html.EditorFor(model => model.Nascimento, new { htmlAttributes = new { placeholder = "Nascimento", @class = "form-control" } })
-                            @Html.ValidationMessageFor(model => model.Nascimento, "", new { @class = "text-danger" })
-                        </div>
-                    </div>
-
-
-                    <div class="form-group">
-                        <div class="col-md-10">
-                            @Html.EditorFor(model => model.CPF, new { htmlAttributes = new { placeholder = "CPF (Somente Números)", @class = "form-control" } })
-                            @Html.ValidationMessageFor(model => model.CPF, "", new { @class = "text-danger" })
-                        </div>
-                    </div>
-
-                    <div style="display: none" id="Paciente_id">
-                        @Html.TextBoxFor(model => model.Paciente_id)
-                    </div>
-
-                    <div class="form-group">
-                        <div class="col-md-offset-2 col-md-10">
-                            <input type="submit" value="Solicitar Horários" class="botao" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <input type="submit" value="Salvar" class="btn btn-primary" />
-                <input type="button" value="Cancelar" class="btn btn-default" data-dismiss="modal" />
-            </div>
-        }
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Solicitar Horários" class="botao" />
+        </div>
     </div>
 </div>
-
+}
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")

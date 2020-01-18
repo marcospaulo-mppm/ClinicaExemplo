@@ -53,12 +53,20 @@
   <ItemGroup>
     <Compile Include="Contexto\ClinicaExemploContext.cs" />
     <Compile Include="EntityConfig\AgendamentoConfigurations.cs" />
+    <Compile Include="Migrations\202001180040437_init.cs" />
+    <Compile Include="Migrations\202001180040437_init.designer.cs">
+      <DependentUpon>202001180040437_init.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\AgendamentoRepository.cs" />
     <Compile Include="Repositories\RepositoryBase.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202001180040437_init.resx">
+      <DependentUpon>202001180040437_init.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClinicaExemplo.Domain\ClinicaExemplo.Domain.csproj">
       <Project>{736cb219-da0e-40d1-88e5-d79eacd2c737}</Project>

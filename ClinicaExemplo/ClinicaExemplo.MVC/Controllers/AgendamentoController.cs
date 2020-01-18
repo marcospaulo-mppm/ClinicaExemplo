@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 using System.Web.Mvc;
 using AutoMapper;
 using ClinicaExemplo.Domain.Entities;
@@ -147,8 +144,11 @@ namespace ClinicaExemplo.MVC.Controllers
         }
 
         // GET: Agendamento/Create
-        public ActionResult Create()
+        public ActionResult Create(int Pid, int Eid)
         {
+            ViewBag.Pid = Pid;
+            ViewBag.Eid = Eid;
+
             return View("Create");
         }
 
