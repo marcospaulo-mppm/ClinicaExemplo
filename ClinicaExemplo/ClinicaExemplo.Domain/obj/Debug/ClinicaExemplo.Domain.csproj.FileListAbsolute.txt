@@ -1,5 +1,6 @@
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Domain\bin\Debug\ClinicaExemplo.Domain.dll
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Domain\bin\Debug\ClinicaExemplo.Domain.pdb
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Domain\obj\Debug\ClinicaExemplo.Domain.csprojAssemblyReference.cache
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Domain\obj\Debug\ClinicaExemplo.Domain.csproj.CoreCompileInputs.cache
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Domain\obj\Debug\ClinicaExemplo.Domain.dll
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.Domain\obj\Debug\ClinicaExemplo.Domain.pdb

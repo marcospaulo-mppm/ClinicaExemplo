@@ -53,9 +53,12 @@ namespace ClinicaExemplo.MVC.Controllers
             else return View("_DropDownView", new List<string>());
         }
 
-        public ActionResult ObterProfissional(string EspecidalidadeId)
+        public ActionResult ObterProfissional(string id)
         {
-            string profissionalList = "https://api.feegow.com.br/api/professional/list?ativo=0";
+            var espec = id.Split(';');
+            ViewBag.espc = espec[1];
+            string idespc = espec[0]; 
+            string profissionalList = "https://api.feegow.com.br/api/professional/list?especialidade_id="+ idespc;
             string result = null;
 
             Task.Run(async () =>
@@ -69,10 +72,35 @@ namespace ClinicaExemplo.MVC.Controllers
             {
                 var listaDropDown = response.Content;
 
+                ViewBag.TotEspec = listaDropDown.Count;
+
                 return View("_CarregaProfissional", listaDropDown);
             }
 
             else return View("_CarregaProfissional", new List<string>());
+        }
+
+        public ActionResult ObterSource()
+        {
+            string sourcelist = "https://api.feegow.com.br/api/patient/list-sources";
+            string result = null;
+
+            Task.Run(async () =>
+            {
+                result = await DownloadPorUrl(sourcelist);
+            }).Wait();
+
+            //Converter result pra JSON e adicionar conforme modelo abaixo
+            var response = JsonConvert.DeserializeObject<RespostaAgen>(result);
+            if (response.Success)
+            {
+                ViewBag.origem_id = new SelectList(response.Content, "origem_id", "nome_origem");
+                var listaDropDown = new List<string>() { "origem_id" };
+
+                return View("_DropDownOrigem", listaDropDown);
+            }
+
+            else return View("_DropDownOrigem", new List<string>());
         }
 
         public async Task<string> DownloadPorUrl(string url)
@@ -121,7 +149,7 @@ namespace ClinicaExemplo.MVC.Controllers
         // GET: Agendamento/Create
         public ActionResult Create()
         {
-            return View();
+            return View("Create");
         }
 
         // POST: Agendamento/Create

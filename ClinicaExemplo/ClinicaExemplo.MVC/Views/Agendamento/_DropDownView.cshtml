@@ -4,9 +4,16 @@
     Layout = null;
 }
 
-<label>Consulta de:</label>
 
-@foreach (var dropdown in Model)
-{
-    @Html.DropDownList(dropdown, null, htmlAttributes: new { @class = "form-control" })
-}
+    <div style="float:left; text-align:right; width:45%; padding:10px; position:relative; border:3px solid;  border-color:white;">
+        <h4><strong>Consulta de</strong></h4>
+    </div>
+    <div style="float:left; text-align:left; width:45%; padding:10px; position:relative; border: 3px solid;  border-color:white;">
+        @foreach (var dropdown in Model)
+        {
+        <div class="dropdown">
+        @Html.DropDownList(dropdown, null, "Selecionar a Especialidade", htmlAttributes: new { @class = "form-control" })
+        </div>
+
+        }
+    </div>

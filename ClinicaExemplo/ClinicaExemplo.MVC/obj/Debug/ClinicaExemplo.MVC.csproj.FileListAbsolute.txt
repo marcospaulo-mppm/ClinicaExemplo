@@ -1,5 +1,3 @@
-C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.MVC\obj\Debug\ClinicaExemplo.MVC.csprojAssemblyReference.cache
-C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.MVC\obj\Debug\ClinicaExemplo.MVC.csproj.CoreCompileInputs.cache
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.MVC\bin\AutoMapper.Net4.dll
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.MVC\bin\ClinicaExemplo.MVC.dll.config
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.MVC\bin\ClinicaExemplo.MVC.dll
@@ -94,6 +92,8 @@ C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.MVC\bin\System.W
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.MVC\bin\Newtonsoft.Json.xml
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.MVC\bin\Antlr3.Runtime.pdb
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.MVC\obj\Debug\ClinicaExemplo.MVC.csprojAssemblyReference.cache
+C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.MVC\obj\Debug\ClinicaExemplo.MVC.csproj.CoreCompileInputs.cache
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.MVC\obj\Debug\ClinicaExemplo.MVC.csproj.CopyComplete
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.MVC\obj\Debug\ClinicaExemplo.MVC.dll
 C:\Marcos\Projetos\ClinicaExemplo\ClinicaExemplo\ClinicaExemplo.MVC\obj\Debug\ClinicaExemplo.MVC.pdb

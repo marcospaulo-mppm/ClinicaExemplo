@@ -5,6 +5,13 @@ using System.Web;
 
 namespace ClinicaExemplo.MVC.ViewModels
 {
+    public class RespostaAgen
+    {
+        public bool Success { get; set; }
+        public List<AgendamentoViewModel> Content { get; set; }
+    }
+
+
     public class AgendamentoViewModel
     {
         public int Agendamento_id { get; set; }
@@ -19,7 +26,9 @@ namespace ClinicaExemplo.MVC.ViewModels
 
         public string CPF { get; set; }
 
-        public int Source_id { get; set; }
+        public int Origem_id { get; set; }
+
+        public string Nome_origem { get; set; }
 
         public DateTime Nascimento { get; set; }
 
